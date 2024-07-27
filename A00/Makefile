@@ -1,5 +1,5 @@
-hello : hello.c
-	gcc hello.c -o hello
+hello : fortune.c
+	gcc fortune.c -o fortune 
 
 clean :
-	rm hello
+	rm fortune 
